@@ -1,0 +1,19 @@
+.box{
+    border: 2px solid red;
+    width: 1200px;
+}
+
+@media screen and (max-width:1210px) {
+    .box{
+        width: 1000px;
+        font-size: 20px;
+    }
+}
+
+@media screen and(max-width:1002px) {
+    .box{
+        width:600px ;
+        font-size: 16px;
+    }
+    
+}
